@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #242844;
+}
+
+
+
+
+header{
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+
+.title{
+  font-size: 60px;
+  color: #242844;
+}
+
+.width{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.cont_card{
+ margin-top: 100px;
+}
+
+.clip{
+  background-image: url(./clip.svg);
+  width: 27px;
+  height: 48px;
+}
+
+.card{
+  background-color: #e5e7f2;
+  border-radius: 30px;
+  margin: auto;
+  padding: 30px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.card:hover{
+box-shadow: 0 0 20px #aeb5e7;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.info p{
+ margin: 5px;
+ font-size: 14px;
+ color: #333;
+}
+
+.black{
+font-weight: 700;
+color: #565d83;
+}
+
+.name{
+  font-size: 40px;
+  font-weight: 800;
+  color: #373e66;
+}
+
+.white_Card{
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+
+.cont{
+  font-weight: 600;
+  font-size: 18px;
+  color: #bbc0dc;
+  padding-top: 40px;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  background-image: url("./Icon-user.svg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  padding: 15px;
+}
+
+
+
+
+footer{
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  background-color: #242844;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
